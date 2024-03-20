@@ -20,7 +20,7 @@ test('should indicate color for medium health', () => {
   expect(received).toBe(expected)
 });
 
-test('should indicate color for law health', () => {
+test('should indicate color for low health', () => {
   const input = {name: 'Маг', health: 5};
   const received = healthIndicator(input,true);
   if (input.health < 15) {
